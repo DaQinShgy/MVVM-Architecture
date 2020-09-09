@@ -6,23 +6,23 @@
 
 ## 通知
 
-这个项目采用了数种 `Mvvm` 的实现方式，你可以参考任意感兴趣的进行了解：
+这个项目采用了数种 `MVVM` 的实现方式，你可以参考任意感兴趣的进行了解：
 
 * [Jetpack + Coroutine + Dagger-Hilt](https://github.com/qingmei2/MVVM-Architecture) 
 * [Jetpack + Coroutine + Kodein](https://github.com/qingmei2/MVVM-Architecture/tree/kodein_coroutine_livedata) 
 * [Jetpack + RxJava + Kodein](https://github.com/qingmei2/MVVM-Architecture/tree/branch_rxjava) 
 
-> 项目中并未使用 `DataBinding`，我个人对 `Mvvm` 的见解，请参考 [这里](https://github.com/qingmei2/MVVM-Architecture/issues/15)。
+* 我为什么放弃了`DataBinding`，以及我个人对MVVM`的 **[理解](https://github.com/qingmei2/MVVM-Architecture/issues/15)** 。
 
-> 有的小伙伴好奇 **为什么这个项目这么简单** ，关于我对这个项目的定位，请参考 [这里](https://github.com/qingmei2/MVVM-Architecture/issues/44)。
+* 我对这个项目的 **[定位](https://github.com/qingmei2/MVVM-Architecture/issues/44)** 。
 
 ## 屏幕截图
 
 <div align:left;display:inline;>
-<img width="200" height="360" src="https://github.com/qingmei2/MVVM-Architecture/blob/master/screenshots/login.png"/>
-<img width="200" height="360" src="https://github.com/qingmei2/MVVM-Architecture/blob/master/screenshots/home.png"/>
-<img width="200" height="360" src="https://github.com/qingmei2/MVVM-Architecture/blob/master/screenshots/repos.png"/>
-<img width="200" height="360" src="https://github.com/qingmei2/MVVM-Architecture/blob/master/screenshots/me.png"/>
+<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-17fd103f3c524a1c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
+<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-33af9e0ee5686851.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
+<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-177d808edca4f7ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
+<img width="200" height="360" src="https://upload-images.jianshu.io/upload_images/7293029-20e72a2bdfaa8f7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/200"/>
 </div>
 
 ## 三方组件
@@ -39,7 +39,7 @@
 
 * [Navigation: Handle everything needed for in-app navigation.](https://developer.android.com/topic/libraries/architecture/navigation/)
 
-* [Paging: Makes it easier for you to load data gradually and gracefully within your app's RecyclerView.](https://developer.android.com/topic/libraries/architecture/paging/)
+* [Paging3: Makes it easier for you to load data gradually and gracefully within your app's RecyclerView.](https://developer.android.com/topic/libraries/architecture/paging/)
 
 ### 网络请求
 
@@ -80,13 +80,13 @@ $ git clone https://github.com/qingmei2/MVVM-Rhine.git
 首先打开[这个链接](https://github.com/settings/applications/new),注册属于你的`OAuth Application`：
 
 <div align:left;display:inline;>
-<img width="480" height="480" src="https://github.com/qingmei2/MVVM-Rhine/blob/master/screenshots/regist_step1.png"/>
+<img width="480" height="480" src="https://upload-images.jianshu.io/upload_images/7293029-e3f13ac45d520518.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/480"/>
 </div>
 
 注册完成后，记住下面的`Client ID`和`Client Secret`,并配置到你的项目根目录的`local.properties`文件中：
 
 <div align:left;display:inline;>
-<img width="550" height="384" src="https://github.com/qingmei2/MVVM-Rhine/blob/master/screenshots/regist_step2.png"/>
+<img width="550" height="384" src="https://upload-images.jianshu.io/upload_images/7293029-b84aaecb29d420bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/550"/>
 </div>
 
 ```groovy
@@ -114,6 +114,11 @@ CLIENT_SECRET = "xxxxxx"
 :art: 项目中的UI设计部分参考了 [gitme](https://github.com/flutterchina/gitme).
 
 :star: 项目参考了 [rx-mvvm-android](https://github.com/ffgiraldez/rx-mvvm-android) 并对其部分代码进行了引用.
+
+## Contributor
+
+* [DaQinShgy](https://github.com/DaQinShgy)
+* [GeorgCantor](https://github.com/GeorgCantor)
 
 ## License
 
